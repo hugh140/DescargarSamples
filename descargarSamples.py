@@ -1,7 +1,16 @@
+#Cambiar la dirección que desee redirigir el sample aquí
+#No olvidar escribir el "/" al final de la cadena
+#La dirección debe ser concreta tal y como se muestra en el ejemplo
+direccion = "D:/Música/SamplesCanciones/"
+#Si no desea afectar el funcionamiento de este programa
+#NO ToQUE NADA DE LO QUE SE ENCUENTRA ABAJO DE EsTE MENSAJE
+#Gracias :D
+
+
 from pytube import YouTube
 import os
 import re
-direccion = "D:/Música/SamplesCanciones/"
+
 
 while True:
     print()
